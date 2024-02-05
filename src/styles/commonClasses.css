@@ -1,0 +1,43 @@
+.maxWidth{
+    max-width: 1120px;
+    margin: 0px auto;
+}
+
+.absoluteCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.curPoint{
+    cursor: pointer;
+}
+
+.inactiveText{
+    color: #696969;
+}
+
+.collection-title{
+    color: #1c1c1c;
+    font-size: 30px;
+    margin-bottom: 32px;
+    font-weight: 600;
+}
+
+.slick-next:before,
+.slick-prev:before{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background: #1c1c1c;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px, rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+    border-radius: 50%;
+    transform: translateY(-20px);
+
+
+}
+

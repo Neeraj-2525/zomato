@@ -1,0 +1,284 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    margin-bottom: 12px;
+    /* background-color: blue; */
+}
+
+.headerLogo{
+    display: flex;
+    align-items: center;
+    max-width: 10rem;
+    height: 2.7rem;
+    cursor: pointer;
+}
+
+
+.headerLogo img{
+    width: 80%;
+}
+
+header{
+    height: 5rem;
+    width: 100%;
+    max-width: 100%;
+    /* background-color: rgb(228, 0, 0); */
+    /* display: flex;
+    align-items: center; */
+}
+
+header nav{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    max-width: 110rem;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    position: relative;
+    /* background-color: greenyellow; */
+    
+}
+
+.navigation{
+    margin-left: 10px;
+}
+
+.locSearchContainer{
+    display: flex;
+    align-items: center;
+    height: 56px;
+    width: 770px;
+    /* height: 60px; */
+    background: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+}
+
+header nav ul{
+    width: 100%;
+    flex-wrap: nowrap;
+    user-select: none;
+    /* gap: 50px; */
+    padding: 1.7rem 0px;
+    /* background-color: aquamarine; */
+
+}
+
+header nav ul .loc{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    width: 320px;
+    height: 100%;
+    border-radius: 0.5rem;
+    padding: 0px 1rem;
+    position: relative;
+}
+
+.locationCaretDown{
+    transition: transform 0.25s ease-in-out 0s;
+    transform: scale(1.2);
+    /* transform-origin: 20% 40%; */
+}
+
+.locationCaretDown:not(.collapsed){
+    transform: rotate(180deg);
+}
+
+.locationCaretDown:is(.collapsed){
+    transform: rotate(0deg);
+}
+
+.locSelect input{
+    border: none;
+    font-size: 16px;
+    margin: 0px 1rem 0px 0.5rem;
+}
+
+.line{
+    width: 0rem;
+    height: 1.2rem;
+    border: 0.05rem solid rgb(207, 207, 207);
+}
+
+.searchContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex: 2;
+}
+
+.searchIconContainer{
+    width: 4rem;
+    height: 100%;
+}
+
+
+.leftNav{
+    width: 74%;
+    top: 50%;
+    left: 15rem;
+}
+
+.searchInp{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 100%; 
+}
+
+.profileContainer{
+    gap: 10px;
+}
+
+.profileContainer span{
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.profileImg{
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.dropdown{
+    width: 390px;
+    max-height: 30rem;
+    background: white;
+    border-radius: 0.5rem;
+    position: absolute;
+    left: 0px;
+    overflow: auto;
+    border: 1px solid rgb(207, 207, 207);
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    top: 4rem;
+}
+
+.dropdown .detectLocContainer{
+    padding: 1.1rem 1.1rem 1.1rem 1rem;
+    box-shadow: rgba(232, 232, 232, 0.7) 0px 0.5px 0px;
+    cursor: pointer;
+}
+
+.detectLocContainer:hover{
+    background-color: #f5f3f399;
+}
+
+.detectLoc{
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(30, 184, 255); */
+}
+
+.detectLocIcon{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 26px;
+    transform: scale(1.2);
+
+}
+
+
+.detectLoc p{
+    font-size: 20px;
+    color:#EF4F5F;
+    line-height: 1.5;
+}
+
+.detectLocContainer span{
+    margin-left: 1.6rem;
+    font-size: 16px;
+    font-weight: 300;
+    color: #9c9c9c;
+}
+
+
+
+.addressContainer{
+    padding: 1.1rem 1.1rem 1rem 1rem;
+    box-shadow: rgba(232, 232, 232, 0.7) 0px 0.5px 0px;
+    cursor: pointer;
+}
+
+.addressContainer:hover{
+    background-color: #f5f3f399;
+
+}
+
+
+.address{
+    display: flex;
+    align-items: center;
+}
+
+.address p{
+    color: #EF4F5F;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.addIcon{
+    transform: scale(1.2);
+}
+
+
+.saveAdd{
+    padding: 1.2rem 1rem 0rem 1.2rem;
+    font-size: 19px;
+    color: rgb(28,28,28);
+    font-weight: 400;
+}
+
+.savedAddress{
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    cursor: pointer;
+}
+
+.savedAddress:hover{
+    background-color: #f5f3f399;
+}
+
+.savedAddressName p:first-child{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.homeIconCont{
+    display: flex;
+    align-items: center;
+    margin: 0 1.4rem 0 1rem;
+}
+
+
+.homeIconCont i{
+    transform: scale(1.2);
+}
+
+.savedAddressName p:first-child{
+    margin-bottom: 3px;
+    font-size: 18px;
+    color: #363636;
+}
+
+.savedAddressName p:nth-child(2){
+    font-size: 16px;
+    color: #4f4f4f;
+}
+

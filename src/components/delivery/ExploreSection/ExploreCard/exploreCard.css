@@ -1,0 +1,139 @@
+.explore-card{
+    margin: 12px 0px 24px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    width: 350px;
+}
+
+.explore-card-cover{
+    height: 248px;
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+}
+
+.explore-card-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* .delivery-time{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    opacity: 0.8;
+    background-color: white;
+    backdrop-filter: blur(4px);
+    font-weight: 600;
+    font-size: 12px;
+    padding: 2px 5px 3px;
+    border-radius: 4px;
+} */
+
+
+.discount{
+    position: absolute;
+    max-width: calc(100% - 2.4rem);
+    bottom: 12px;    
+}
+
+.discount p{
+    line-height: 1.5rem;
+    width: max-content;
+    max-width: 100%;
+    color: white;
+    background-color: #256FEF;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 0px 0.2rem 0.2rem 0px;
+    padding: 0 6px;
+    white-space: nowrap;
+}
+
+.res-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0 6px;
+    
+}
+
+.res-name{
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1c1c1c;
+}
+
+
+.rating-wrapper{
+    background-color: rgb(38, 126, 62);
+    color: rgb(255, 255, 255);
+    min-width: 2.6rem;
+    padding: 0px 0.4rem;
+    border-radius: 0.6rem;
+    border: 1px solid rgb(38, 126, 62);
+    font-size: 13px;
+}
+
+.res-rating{
+    height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+.cuisine-cfo-wrapper{
+    color: #696969;
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+
+.res-cuisine{
+    max-width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.right-approximate-time{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 2px 5px 3px;
+    color: #363636;
+}
+
+.explore-card-bottom{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+.res-bottom-text{
+    font-size: 13px;
+    color: #828282;
+    margin-left: 10px;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-separator{
+    height: 1px;
+    width: 100%;
+    margin: 10px 0px 5px;
+    background-color: #e8e8e8;
+}
+
+.explore-card:hover{
+    background-color: white;
+    border: 1px solid #e8e8e8 ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 12px;
+}
