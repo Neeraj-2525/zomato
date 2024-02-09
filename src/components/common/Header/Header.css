@@ -99,6 +99,7 @@ header nav ul .loc{
 
 .locSelect input{
     border: none;
+    outline: none;
     font-size: 16px;
     margin: 0px 1rem 0px 0.5rem;
 }

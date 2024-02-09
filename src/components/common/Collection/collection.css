@@ -21,7 +21,15 @@
 .collection-location{
     display: flex;
     align-items: center;
+    color:#ff7e8bc7;
+    gap: 2px;
 }
+
+.collection-location:hover{
+    color: #FF7E8B;
+    cursor: pointer;
+}
+
 
 .collection-cover{
     height: 320px;

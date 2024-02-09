@@ -1,0 +1,118 @@
+a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.footer-wrapper{
+    background-color: #f8f8f8;
+}
+
+.footer-secondary-wrapper{
+    padding: 48px 0 22px;
+}
+
+.footer-head-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer-logo{
+    height: 28px;
+    width: 132px;
+}
+
+.footer-logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.flag-lang-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.country-select, .lang-select{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 3px 7px;
+    border: solid #b5b5b5 1px;
+    border-radius: 6px;
+}
+
+
+.flag{
+    width: 2.8rem;
+    height: 2rem;
+    display: inline-block;
+    background: url(https://b.zmtcdn.com/data/webuikit/0687ff554c86e36cda9498212e221af61563274375.png) -141px 0px no-repeat;
+    transform: scale(0.488889);
+}
+
+.lang-icon{
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+.flag-name, .lang-name{
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 5px;
+    color: #1c1c1c;
+}
+
+.foot-link-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-container{
+    max-width: 210px;
+}
+
+.link-title{
+    font-style: 14px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    line-height: 0.1;
+}
+
+.foot-links{
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-link-item{
+    font-weight: 300;
+    color: #696969;
+    margin: 3px 0;
+    font-style: 12px;
+    text-transform:capitalize;
+}
+
+.foot-icon-container{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.store{
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    margin: 5px 0;
+}
+
+.footer-credit{
+    font-size: 13px;
+    color: #4f4f4f;
+    margin: 23px 0;
+}

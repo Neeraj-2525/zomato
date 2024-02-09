@@ -7,7 +7,7 @@ import './deliveryItem.css'
 const DeliveryItem = ({item}) => {
   return (
     <div className='delivery-item-wrapper'>
-      <div className="delivery-item-cover">
+      <div className="delivery-item-cover curPoint">
         <img src={item.cover} alt={item.title} className='delivery-item-img' />
       </div>
 

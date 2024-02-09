@@ -28,7 +28,7 @@ const Header = () => {
                   {/* <span class="fa-solid fa-caret-down locationCaretDown" role='button' data-bs-toggle="collapse" data-bs-target="#locDropdown"></span> */}
                   <i class="locationCaretDown absoluteCenter" role='button' data-bs-toggle="collapse" data-bs-target="#locDropdown" color="#4F4F4F" size="12"><svg xmlns="http://www.w3.org/2000/svg" fill="#4F4F4F" width="13" height="13" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 ezrcri"><title>down-triangle</title><path d="M20 5.42l-10 10-10-10h20z"></path></svg></i>
 
-                  <div className="dropdown collapse" id='locDropdown'>
+                  <div className="dropdown high-zi collapse" id='locDropdown'>
                     <div className="detectLocContainer">
                       <div className="detectLoc">
                         <div className="detectLocIconCont ">

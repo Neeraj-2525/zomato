@@ -5,37 +5,44 @@ import TabOpt from '../../components/common/TabOpt';
 import Delivery from '../../components/delivery';
 import NightLife from '../../components/nightLife';
 import DineOut from '../../components/dineOut';
+import Accordian from '../../components/common/Accordian';
 
 
 const HomePage = () => {
 
   const [activeTab, setActiveTab] = useState("Delivery")
-  
-  
+
+
   return (
-    
+
     <div className=''>
-      <Header/>
+      <Header />
       <TabOpt activeTab={activeTab} setActiveTab={setActiveTab} />
       {getCorrectScreen(activeTab)}
-      <Footer/>
+      <div className="maxWidth accordian-wrapper">
+        <div className="collection-title">
+          Explore options near me
+        </div>
+        <Accordian />
+      </div>
+      <Footer />
     </div>
   )
 }
 
-const getCorrectScreen = (tab)=>{
-  switch(tab){
+const getCorrectScreen = (tab) => {
+  switch (tab) {
     case "Delivery":
-      return <Delivery/>
+      return <Delivery />
 
     case "Dining Out":
-      return <DineOut/>
+      return <DineOut />
 
     case "Nightlife":
-      return <NightLife/>
+      return <NightLife />
 
     default:
-      return <Delivery/>
+      return <Delivery />
   }
 }
 

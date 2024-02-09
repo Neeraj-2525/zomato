@@ -17,12 +17,12 @@ var settings = {
 const Collection = ({ list }) => {
   return (
     <div className='collection-wrapper'>
-      <div className="maxWidth collection">
+      <div className="maxWidth collection curPoint">
         <div className='collection-title'>Collections</div>
         <div className="collection-subtitle-row">
           <div className='collection-subtitle-text'>Explore curated lists of top restaurants, cafes, pubs, and bars in Delhi NCR, based on trends</div>
           <div className="collection-location">
-            <div>All collections in Delhi NCR</div>
+            <div >All collections in Delhi NCR</div>
             <i class="absoluteCenter" color="#FF7E8B" size="12">
               <svg xmlns="http://www.w3.org/2000/svg" fill="#FF7E8B" width="12" height="12" viewBox="0 0 20 20" aria-labelledby="icon-svg-title- icon-svg-desc-" role="img" class="sc-rbbb40-0 ezrcri"><title>right-triangle</title><path d="M5 0.42l10 10-10 10v-20z"></path></svg>
             </i>

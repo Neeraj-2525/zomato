@@ -2,7 +2,7 @@ import React from 'react'
 import Filters from '../common/Filters'
 import DeliveryCollections from './deliveryCollections'
 import TopBrands from './topBrands'
-import ExploreSection from './ExploreSection'
+import ExploreSection from '../common/ExploreSection'
 import { restaurants } from '../../Data/restaurants'
 
 
@@ -34,7 +34,7 @@ const Delivery = () => {
   return (
     <div>
       <div className="maxWidth">
-        <Filters filterList={deliveryFilters} />
+      <Filters filterList={deliveryFilters} />
       </div>
       <DeliveryCollections/>
       <TopBrands/>

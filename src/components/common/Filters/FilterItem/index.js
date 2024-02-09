@@ -3,7 +3,7 @@ import './filterItem.css'
 
 const FilterItem = ({filter}) => {
   return (
-    <div className='filter-item'>
+    <div className='filter-item curPoint'>
       {filter.icon && filter.icon}
       <div className="filter-name">{filter.title}</div>
     </div>

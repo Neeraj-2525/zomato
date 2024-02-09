@@ -1,0 +1,20 @@
+.accordion{
+    margin-bottom: 50px;
+}
+
+.accordion-item{
+    margin-top: 20px;
+    border-radius: 0.8rem;
+    border: 1px solid rgb(232, 232, 232)
+}
+
+.accordion-button:focus{
+    background-color: #fff;
+    border: none;
+}
+
+.accordion-button{
+    font-size: 22px;
+    color: #1c1c1c;
+    background-color: #fff;
+}
