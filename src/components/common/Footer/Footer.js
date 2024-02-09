@@ -93,7 +93,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr className="hor-line mt-5" />
+        <hr className="hor-line mt-4" />
         <div className="footer-credit">
         By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.
         </div>
